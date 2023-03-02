@@ -1,0 +1,17 @@
+Instructions to execute:
+make clean
+make fname={filename}
+./parser {inputfilename}
+
+Implemented:
+	1) Symbol Table
+	2) Type Checking
+	3) Type Casting for Arthimetic expressions using widening approach
+	4) Complex Conditional Statements but perfectly works if all or OR's or if all are AND's
+	5) Works a little good if AND comes first always and next either AND or OR
+
+Limitations:
+	Not implemented Multidimensional arrays and pointers.
+	Not implemented unary operators(++,--)
+	Not fully implemented complex conditional statements
+	
